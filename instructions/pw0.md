@@ -88,8 +88,9 @@ This practical work will be as follows
     Make sure to use the URL with `SSH` (*git@github.com:YOUR-USERNAME/YOUR-REPOSITORY*) and not with `https` 
     (*https://github.com/YOUR-USERNAME/YOUR-REPOSITORY*)
 
+:warning: Make sure that `Git` and `GitHub` are setup correctly before the course to be able to do the practical work.
 
-Congratulation, your environment is setup and ready for the course practical work :grinning:	
+:tada: Congratulation, your environment is setup and ready for the course practical work :grinning:	
 
 
 ### Useful links
@@ -102,4 +103,21 @@ Congratulation, your environment is setup and ready for the course practical wor
 
 
 ## Environment management in Python
-**TODO**
+
+Many softwares can be used to create and manage virtual environments in Python. For this course, we will using
+[*miniconda*](https://docs.conda.io/en/latest/miniconda.html): a mini version of
+[*Anaconda*](https://www.anaconda.com/) that includes only conda and its dependencies.
+
+First, let's start by installing `miniconda`
+
+### *miniconda* installation
+
+1. Install `miniconda` with the `Python 3.9` version by following the
+[official documentation tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+2. Test your installation
+   1. Open your terminal window or Anaconda Prompt
+   2. Run the command `conda list`: a list of installed packages appears if it has been installed correctly.
+
+:warning: Make sure that `conda` is installed correctly before the course to be able to do the practical work.
+
+:tada: Congratulation, your environment is setup and ready for the course practical work :grinning:
